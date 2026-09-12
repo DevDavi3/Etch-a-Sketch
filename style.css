@@ -1,25 +1,38 @@
+
 * {
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-
-    width:60vw;
-    height: 60vh;
-    
-
+body {
+    margin: 0;
 }
 
-.container div {
+h1 {
+    text-align: center;
+}
+
+.slider {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.slider input {
+    width: 40%;
+}
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.container > div {
+    display: flex;
+}
+
+.container > div > div {
     background-color: black;
     width: 20px;
     height: 20px;
     margin: 1px;
-    /* flex: 1 1 20px */
 }
-.container div:hover
-{
-    
-}
+
